@@ -1,0 +1,19 @@
+{
+  "name": "miniblockchain",
+  "version": "1.0.0",
+  "description": "A minimal implementation of blockchain",
+  "author": "Miller Adulu <milleradulu@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sha256": "^0.2.0"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/babel src -d lib",
+    "block": "node lib/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3"
+  }
+}
